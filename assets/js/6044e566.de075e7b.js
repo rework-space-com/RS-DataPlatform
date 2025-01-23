@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[3967],{3931:a=>{a.exports=JSON.parse('{"label":"hello","permalink":"/RS-DataPlatform/blog/tags/hello","allTagsPath":"/RS-DataPlatform/blog/tags","count":2,"unlisted":false}')}}]);
