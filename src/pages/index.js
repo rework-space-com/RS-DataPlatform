@@ -3,11 +3,12 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
+import Homepage from '../components/Homepage';
 import Features from '../components/Features';
 import Technology from '../components/Technology';
 import Usage from '../components/Usage';
 import BusinessModel from '../components/BusinessModel';
+import Contacts from '../components/Contacts';
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
@@ -24,11 +25,11 @@ export default function Home() {
         </div>
       </header>
       <main>
-        <HomepageFeatures />
+        <Homepage />
         <Technology />
-        <Features />
         <Usage />
         <BusinessModel />
+        <Contacts />
       </main>
     </Layout>
   );

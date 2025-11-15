@@ -34,22 +34,6 @@ export default function Usage() {
 
               <hr />
 
-              <Heading as="h2">How to Use</Heading>
-              <hr />
-
-              <Heading as="h3">Access the System</Heading>
-              <p>
-                Register for an account on our platform and obtain API credentials for secure data access.
-                Our authentication system ensures that your data and analysis results remain protected
-                while providing seamless integration with your existing workflows.
-              </p>
-
-              <Heading as="h3">Take Action</Heading>
-              <p>
-                Upload your satellite imagery data or connect to our extensive database of remote sensing data.
-                Use our intuitive interface to configure analysis parameters, run processing algorithms,
-                and generate comprehensive reports with interactive visualizations and downloadable results.
-              </p>
             </article>
           </div>
         </div>

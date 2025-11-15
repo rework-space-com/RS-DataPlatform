@@ -56,7 +56,7 @@ function Feature({imgSrc, title, description}) {
   );
 }
 
-export default function HomepageFeatures() {
+export default function Homepage() {
   return (
     <section className={styles.features}>
       <div className="container">

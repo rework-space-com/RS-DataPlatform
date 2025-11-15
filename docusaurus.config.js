@@ -80,10 +80,11 @@ const config = {
         },
         items: [
           {to: '#technology', label: 'Technology', position: 'left'},
-          {to: '#features', label: 'Features', position: 'left'},
+          // {to: '#features', label: 'Features', position: 'left'},
           {to: '#usage', label: 'Usage', position: 'left'},
           {to: '#business-model', label: 'Business Model', position: 'left'},
           // {to: '#team-members', label: 'Team', position: 'right'},
+          {to: '#contacts', label: 'Contacts', position: 'right'},
           {href: 'https://github.com/RS-DataPlatform', label: 'GitHub', position: 'right'},
         ],
       },

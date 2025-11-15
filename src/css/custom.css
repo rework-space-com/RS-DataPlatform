@@ -44,3 +44,17 @@
 .footer--dark {
   --ifm-footer-background-color: #09333c;
 }
+
+/* Scroll offset for anchor links */
+html {
+  scroll-padding-top: 60px;
+}
+
+/* Alternative method using pseudo-elements for anchor targets */
+section[id]::before {
+  content: '';
+  display: block;
+  height: 60px;
+  margin-top: -60px;
+  visibility: hidden;
+}
