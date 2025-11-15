@@ -1,34 +1,13 @@
 import clsx from 'clsx';
-// import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-      {/*
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/">
-            Watch the short RS-DataPlatform Demo!
-          </Link>
-        </div>
-      */}
-      </div>
-    </header>
-  );
-}
+import HomepageFeatures from '../components/HomepageFeatures';
+import Features from '../components/Features';
+import Technology from './technology.mdx';
+import Usage from './usage.md';
+import BusinessModel from './business-model.md';
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
@@ -36,9 +15,20 @@ export default function Home() {
     <Layout
       title={siteConfig.title}
       description={siteConfig.tagline}>
-      <HomepageHeader />
+      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+        <div className="container">
+          <Heading as="h1" className="hero__title">
+            {siteConfig.title}
+          </Heading>
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
+        </div>
+      </header>
       <main>
         <HomepageFeatures />
+        <Features />
+        <Technology />
+        <Usage />
+        <BusinessModel />
       </main>
     </Layout>
   );

@@ -81,7 +81,7 @@ function Feature({Svg, title,description}) {
 
 export default function Features() {
   return (
-    <section className={styles.features}>
+    <section id="features" className={styles.features}>
       <div className="container">
         <div className="row">
           {FeaturesList.map((props, idx) => (

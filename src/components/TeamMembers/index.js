@@ -51,7 +51,7 @@ function TeamMember({imageName, fullName, degree, github, role, description}) {
 
 export default function TeamMembers() {
   return (
-    <section className={styles.features}>
+    <section id="team-members" className={styles.features}>
       <div className="container">
         <div className="row">
           {TeamMembersList.map((props, idx) => (
