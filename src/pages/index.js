@@ -5,9 +5,9 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import Features from '../components/Features';
-import Technology from './technology.mdx';
-import Usage from './usage.md';
-import BusinessModel from './business-model.md';
+import Technology from '../components/Technology';
+import Usage from '../components/Usage';
+import BusinessModel from '../components/BusinessModel';
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
@@ -25,8 +25,8 @@ export default function Home() {
       </header>
       <main>
         <HomepageFeatures />
-        <Features />
         <Technology />
+        <Features />
         <Usage />
         <BusinessModel />
       </main>
