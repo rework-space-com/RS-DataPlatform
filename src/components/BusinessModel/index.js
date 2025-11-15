@@ -1,9 +1,8 @@
 import Heading from '@theme/Heading';
-import styles from './styles.module.css';
 
 export default function BusinessModel() {
   return (
-    <section id="business-model" className={styles.article}>
+    <section id="business-model" className="article-section">
       <div className="container">
         <div className="row justify-center">
           <div className="col col--12">
