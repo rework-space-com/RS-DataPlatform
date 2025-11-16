@@ -8,30 +8,19 @@ export default function Usage() {
           <div className="col col--12">
             <article>
               <Heading as="h2">Use Cases</Heading>
-              <hr />
+              <hr/>
 
-              <Heading as="h3">Case 1</Heading>
-              <p>
-                Agricultural monitoring and crop health assessment using satellite imagery.
-                Our platform analyzes vegetation indices, soil moisture levels, and weather patterns
-                to provide farmers with actionable insights for optimizing crop yields and resource management.
-              </p>
+              <li>Example 1: A retail enterprise scaling globally without cloud vendor lock-in.</li>
+              <li>Example 2: A fintech startup reducing cloud migration security risks with automated IaC.</li>
+              <li>Example 3: A media company ensuring multi-cloud and hybrid cloud.</li>
 
-              <Heading as="h3">Case 2</Heading>
-              <p>
-                Environmental monitoring and climate change tracking. Track deforestation,
-                water quality changes, urban heat island effects, and other environmental indicators
-                to support sustainability initiatives and policy decisions.
-              </p>
+              <hr/>
 
-              <Heading as="h3">Case 3</Heading>
-              <p>
-                Infrastructure and urban planning analysis. Monitor urban growth patterns,
-                assess infrastructure development, and analyze land use changes to support
-                smart city planning and sustainable development projects.
-              </p>
-
-              <hr />
+              <Heading as="h3">Case 1: Retail Migration</Heading>
+              <ul>Manual migration of 100+ security policies to the cloud was estimated to take six months.</ul>
+              <ul>AI-agent analyzed the business logic and auto-generated 90% of the required IaC code.</ul>
+              <ul>Migration was accelerated by 40%, deploying the solution in only three days.</ul>
+              <ul>The quick deployment resulted in significant savings in engineering and operational costs.</ul>
 
             </article>
           </div>
