@@ -69,7 +69,6 @@ section {
 .article-section {
   padding: 4rem 2rem;
   width: 100%;
-  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -124,4 +123,9 @@ section {
 
 #contacts {
   padding-bottom: 6rem !important;
+}
+
+/* Remove list markers from li elements */
+li {
+  list-style: none;
 }

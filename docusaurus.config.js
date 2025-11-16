@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'RS-DataPlatform',
-  tagline: 'Slogan',
+  tagline: 'Decisions Without Boundaries',
   favicon: 'img/rework_logo.webp',
 
   // Set the production url of your site here

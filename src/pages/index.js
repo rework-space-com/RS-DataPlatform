@@ -3,6 +3,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import Description from '../components/Description';
 import Homepage from '../components/Homepage';
 import Features from '../components/Features';
 import Technology from '../components/Technology';
@@ -25,11 +26,12 @@ export default function Home() {
         </div>
       </header>
       <main>
-        <Homepage />
-        <Technology />
-        <Usage />
-        <BusinessModel />
-        <Contacts />
+        <Description/>
+        <Homepage/>
+        <Technology/>
+        <Usage/>
+        <BusinessModel/>
+        <Contacts/>
       </main>
     </Layout>
   );
