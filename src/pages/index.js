@@ -27,10 +27,10 @@ export default function Home() {
       </header>
       <main>
         <Description/>
-        <Homepage/>
-        <Technology/>
+        {/*<Homepage/>*/}
+        {/*<Technology/>*/}
         <Usage/>
-        <BusinessModel/>
+        {/*<BusinessModel/>*/}
         <Contacts/>
       </main>
     </Layout>
