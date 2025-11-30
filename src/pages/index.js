@@ -8,6 +8,7 @@ import Usage from '../components/usage';
 import Contacts from '../components/contacts';
 import ProblemStatement from "../components/problem-statement";
 import Solution from "../components/solution";
+import Case from "../components/case";
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
@@ -29,6 +30,7 @@ export default function Home() {
         <Solution/>
         {/*<Technology/>*/}
         <Usage/>
+        <Case/>
         {/*<BusinessModel/>*/}
         <Contacts/>
       </main>

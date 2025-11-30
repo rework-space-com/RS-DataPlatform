@@ -129,12 +129,13 @@ h2 {
   color: #008080;
 }
 
-h3, a, a:hover {
+h3, a, a:hover, #case h2 {
   color: #134f5c;
 }
 
 .article-section  #article-description,
-.article-section  #article-solution {
+.article-section  #article-solution,
+.article-section  #article-case {
   box-shadow: none !important;
 }
 
@@ -154,8 +155,35 @@ h3, a, a:hover {
   width: 50px;
 }
 
-#article-solution {
+#article-solution,
+#article-usage,
+.section-width {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto
+}
+
+.li-usage-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem
+}
+
+.usage-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px
+}
+
+.li-case-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem
+}
+
+.case-icon {
+  width: 33px;
+  height: 30px;
+  margin-right: 10px;
+  flex-shrink: 0
 }
