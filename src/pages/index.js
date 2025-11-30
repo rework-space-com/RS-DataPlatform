@@ -3,13 +3,14 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-import Description from '../components/Description';
-import Homepage from '../components/Homepage';
-import Features from '../components/Features';
-import Technology from '../components/Technology';
-import Usage from '../components/Usage';
-import BusinessModel from '../components/BusinessModel';
-import Contacts from '../components/Contacts';
+import Description from '../components/description';
+import Homepage from '../components/home-page';
+import Features from '../components/features';
+import Technology from '../components/technology';
+import Usage from '../components/usage';
+import BusinessModel from '../components/business-model';
+import Contacts from '../components/contacts';
+import ProblemStatement from "../components/problem-statement";
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
@@ -27,7 +28,7 @@ export default function Home() {
       </header>
       <main>
         <Description/>
-        {/*<Homepage/>*/}
+        <ProblemStatement/>
         {/*<Technology/>*/}
         <Usage/>
         {/*<BusinessModel/>*/}

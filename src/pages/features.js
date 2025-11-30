@@ -5,7 +5,7 @@ import Layout from '@theme/Layout';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-import Features from '../components/Features';
+import Features from '../components/features';
 
 function HomepageHeader() {
     const {siteConfig} = useDocusaurusContext();

@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import TeamMembers from '../components/TeamMembers';
+import TeamMembers from '../components/team-members';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';

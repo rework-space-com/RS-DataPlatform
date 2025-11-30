@@ -1,6 +1,5 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
-import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 
 const TeamMembersList = [
@@ -34,8 +33,8 @@ function TeamMember({imageName, fullName, degree, github, role, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        {/* <Svg className={styles.featureSvg} role="img" /> */}
-        <img className={styles.featureSvg} src={require(`@site/static/img/team-members/${imageName}`).default} alt={`${fullName} image`} />
+        {/* <Svg className="featureSvg" role="img" /> */}
+        {/*<img className="featureSvg" src={require(`@site/static/img/team-members/${imageName}`).default} alt={`${fullName} image`} />*/}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">
@@ -51,7 +50,7 @@ function TeamMember({imageName, fullName, degree, github, role, description}) {
 
 export default function TeamMembers() {
   return (
-    <section id="team-members" className={styles.features}>
+    <section id="team-members" className="features">
       <div className="container">
         <div className="row">
           {TeamMembersList.map((props, idx) => (
