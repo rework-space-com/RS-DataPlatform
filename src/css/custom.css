@@ -129,11 +129,12 @@ h2 {
   color: #008080;
 }
 
-h3 {
+h3, a, a:hover {
   color: #134f5c;
 }
 
-.article-section  #article-description {
+.article-section  #article-description,
+.article-section  #article-solution {
   box-shadow: none !important;
 }
 
@@ -151,4 +152,10 @@ h3 {
 .featureSvg {
   height: 50px;
   width: 50px;
+}
+
+#article-solution {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto
 }
