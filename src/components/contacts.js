@@ -9,8 +9,6 @@ export default function Contacts() {
             <article>
               <Heading as="h2">Contacts</Heading>
               <hr />
-
-              <Heading as="h3">Get in Touch</Heading>
               <p>
                 We're here to help you accelerate your business growth with cutting-edge cloud infrastructure solutions.
                 Whether you have questions about our services, need technical support, or want
