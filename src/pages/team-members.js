@@ -16,7 +16,7 @@ function HomepageHeader() {
           Our Team
         </Heading>
         <p className="hero__subtitle">The RS-DataPlatform project is powered by the team of talented experts in both business and technical domains</p>
-        <div className={styles.buttons}>
+        <div className="buttons">
           <Link
             className="button button--secondary button--lg"
             to="https://github.com/orgs/RS-DataPlatform/people">

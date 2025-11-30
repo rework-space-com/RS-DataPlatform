@@ -45,7 +45,7 @@ function Feature({imgSrc, title, description}) {
   return (
     <div className={clsx('col col--6')}>
       <div className="text--center">
-        <img className={styles.featureSvg} src={require(`@site/static/img/homepage-features/${imgSrc}`).default}/>
+        <img className="featureSvg" src={require(`@site/static/img/homepage-features/${imgSrc}`).default}/>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -57,7 +57,7 @@ function Feature({imgSrc, title, description}) {
 
 export default function Homepage() {
   return (
-    <section className={styles.features}>
+    <section className="features">
       <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (

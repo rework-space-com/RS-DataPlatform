@@ -56,7 +56,7 @@ function TechnologyItem({title, description}) {
   return (
     <div className={clsx('col col--6')}>
       <div className="text--center">
-        <img className={styles.featureSvg} src={require(`@site/static/img/placeholder.png`).default} alt={"technology icon"} />
+        <img className="featureSvg" src={require(`@site/static/img/placeholder.png`).default} alt={"technology icon"} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -68,7 +68,7 @@ function TechnologyItem({title, description}) {
 
 export default function Technology() {
   return (
-    <section id="technology" className={styles.features}>
+    <section id="technology" className="features">
       <div className="container">
         <div className="text--center">
           <Heading as="h2">Technology Stack</Heading>

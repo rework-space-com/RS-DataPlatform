@@ -62,11 +62,11 @@ function Feature({Svg, title,description}) {
   return (
     <div className={clsx('col col--6')}>
       {/* <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Svg className="featureSvg" role="img" />
       </div> */}
       {
         <div className="text--center">
-          <img className={styles.featureSvg} src={require(`@site/static/img/placeholder.png`).default} alt={"placeholder icon"} />
+          <img className="featureSvg" src={require(`@site/static/img/placeholder.png`).default} alt={"placeholder icon"} />
         </div>
       }
       <div className="text--center padding-horiz--md">
@@ -79,7 +79,7 @@ function Feature({Svg, title,description}) {
 
 export default function Features() {
   return (
-    <section id="features" className={styles.features}>
+    <section id="features" className="features">
       <div className="container">
         <div className="row">
           {FeaturesList.map((props, idx) => (
