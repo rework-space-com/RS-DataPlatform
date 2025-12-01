@@ -129,7 +129,10 @@ h2 {
   color: #008080;
 }
 
-h3, a, a:hover, #case h2 {
+h3, #case h2,
+a, a:hover, a:active, a:focus,
+.navbar__link:hover,
+.navbar__brand:hover {
   color: #134f5c;
 }
 

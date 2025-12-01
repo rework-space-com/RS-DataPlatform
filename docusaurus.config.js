@@ -79,8 +79,8 @@ const config = {
           src: 'img/rework_logo.png',
         },
         items: [
-          // {to: '#technology', label: 'Technology', position: 'left'},
-          // {to: '#features', label: 'Features', position: 'left'},
+          {to: '#problem-statement', label: 'Problem Statement', position: 'left'},
+          {to: '#solution', label: 'Solution', position: 'left'},
           {to: '#usage', label: 'Usage', position: 'left'},
           // {to: '#business-model', label: 'Business Model', position: 'left'},
           // {to: '#team-members', label: 'Team', position: 'right'},
