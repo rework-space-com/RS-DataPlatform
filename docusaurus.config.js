@@ -13,10 +13,10 @@ const config = {
   favicon: 'img/rework_logo.webp',
 
   // Set the production url of your site here
-  url: 'https://rs-dataplatform.github.io',
+  url: 'https://dp.rework-space.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/RS-DataPlatform/',
+  baseUrl: '/',
   trailingSlash: false,
 
   // GitHub pages deployment config.
