@@ -51,14 +51,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/RS-DataPlatform/RS-DataPlatform/tree/main/docs',
+            'https://github.com/rework-space-com/RS-DataPlatform/tree/main/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/RS-DataPlatform/RS-DataPlatform/tree/main/docs',
+            'https://github.com/rework-space-com/RS-DataPlatform/tree/main/docs',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -85,7 +85,7 @@ const config = {
           // {to: '#business-model', label: 'Business Model', position: 'left'},
           // {to: '#team-members', label: 'Team', position: 'right'},
           {to: '#contacts', label: 'Contacts', position: 'right'},
-          {href: 'https://github.com/RS-DataPlatform', label: 'GitHub', position: 'right'},
+          {href: 'https://github.com/rework-space-com/RS-DataPlatform', label: 'GitHub', position: 'right'},
         ],
       },
       footer: {
